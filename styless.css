@@ -1,0 +1,239 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: rgb(59, 95, 251);
+    color: #FFFFFF;
+    
+
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  *{
+    text-align: left;
+}
+input,
+label{
+    margin: 0.4rem 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 4px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  h1{
+    font-family:Arial, Helvetica, sans-serif 
+  }
+
+.notes{
+    width: 200px;
+    padding: 3px 13px;
+    border-color: transparent;
+    border-bottom: 1px solid darkgrey;
+    font-size: 15px;
+    background: transparent;
+  }
+  
+.notes:focus:focus{
+    outline: none;
+  }
+  
+.notes::-webkit-input-placeholder {
+      padding-left: 3px;
+      font-size: 15px;
+      color: #3c3c3c;
+  }
+  
+.notes:-moz-placeholder { /* Firefox 18- */
+      padding-left: px;
+      font-size: 15px;
+      color: #3c3c3c;
+  }
+  
+.notes::-moz-placeholder {  /* Firefox 19+ */
+      padding-left: 5px;
+      font-size: 15px;
+      color: #3c3c3c;
+  }
+  
+.notes:-ms-input-placeholder {
+      padding-left: 5px;
+      font-size: 15px;
+      color: #3c3c3c;
+  }
+
+  .notess{
+    width: 200px;
+    padding: 3px 13px;
+    border-color: transparent;
+    border-bottom: 1px solid darkgrey;
+    font-size: 15px;
+    background: transparent;
+  }
+  
+.notess:focus:focus{
+    outline: none;
+  }
+  
+.notess::-webkit-input-placeholder {
+      padding-left: 3px;
+      font-size: 15px;
+      color: #cbdeff;
+  }
+  
+.notess:-moz-placeholder { /* Firefox 18- */
+      padding-left: px;
+      font-size: 15px;
+      color: #ffffff;
+  }
+  
+.notess::-moz-placeholder {  /* Firefox 19+ */
+      padding-left: 5px;
+      font-size: 15px;
+      color: #ffffff;
+  }
+  
+.notess:-ms-input-placeholder {
+      padding-left: 5px;
+      font-size: 15px;
+      color: #ffffff;
+  }
+.spli{
+  height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.lef {
+  left: -5px;
+  background-color: #ffffff;
+}
+.righ {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://media.istockphoto.com/id/1185747322/photo/blue-mesh-gradient-blurred-motion-abstract-background.jpg?s=612x612&w=0&k=20&c=5S8NBjBQCjL_5zMenfcRrx5X9m6AqJLwYbdTprLJPiA=");
+  overflow: hidden;
+}
+.righ {
+  right: 0;
+  background-color:#5961f9ad;
+}
+.centre {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.righ{
+  color: white;
+  font-family:Arial, Helvetica, sans-serif 
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+.container {
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 50px auto;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  text-align: center;
+  border-radius: 5px;
+}
+h2 {
+  color: #428bca;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;font-weight: bold;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.message {
+  display: none;
+  margin-top: 20px;
+}
+#message-text {
+  color: #f00;
+  font-weight: bold;
+}
+#back-to-form {
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
